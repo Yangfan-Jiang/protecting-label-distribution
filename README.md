@@ -18,7 +18,7 @@ This repository contains the PyTorch implementation of the LDPM mechanism propos
 
 > calibrating_iterations.ipyn: Calibrates the number of SGD iterations based on our closed-form privacy guarantee bound.
 
-## Usag
+## Usage
 ### Step 1: Generate non-i.i.d. local datasets
 We use Dirichlet distribution for data splitting. Run Jupyter notebook ```(fashion-)mnist-noniid.ipynb``` to generate local datasets with non-i.i.d. label distributions.
 
